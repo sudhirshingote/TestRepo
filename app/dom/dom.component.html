@@ -1,0 +1,25 @@
+<table border="1">
+  <tr>
+    <td>
+      EmpId
+    </td>
+    <td>
+      EmpName
+    </td>
+    <td>
+      Salary
+    </td>
+    <td>
+      Comment
+    </td>
+  </tr>
+<tr>
+    <td *ngFor="let emp of employee1">{{emp}} </td>
+</tr>
+<br></table>
+
+<form name="Submitform">
+    Enter First Name <input type="text" name="Firstname"><br>
+    Enter second Name<input type="text" name="Secondname"><br>
+    <input type="button" name="Add" value="Add">
+</form>
